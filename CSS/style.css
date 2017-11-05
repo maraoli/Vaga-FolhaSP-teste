@@ -1,0 +1,376 @@
+/*falta
+
+menu
+link de tudo
+width um poco fora da tela
+*/
+
+/*RESET*/
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+body {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    position: absolute;
+}
+figure{
+	margin: 0;
+}
+
+/*PADRAO DO SITE*/
+
+body{
+	font-family: Helvetica;
+}
+
+/*CABECALHO*/
+
+.cabecalho{
+	background-color: rgb(0, 172, 228);
+	position: fixed;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    z-index: 1; /*quanto menor o z mais afrete da sobreposiçao ele estará*/
+}
+.pre-cabecalho__menu{
+	width: 18%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	height: 100%;
+	position: absolute;
+	top: 28%;
+}
+.cabecalho__menu{
+	display: inline-block;
+	position: relative;
+	left: 2%;
+    vertical-align: middle;
+}
+.pre-cabecalho__logo{
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	height: 100%;
+}
+.cabecalho__logo{
+	display: inline-block;
+	position: relative;
+	top: 11px;
+}
+.carrossel { /*ajuste menu 100px fixos*/
+	margin-top: 130px; /*O + 30px é a margen do elemento*/
+}
+
+/*CARROSSEL*/
+
+.carrossel{
+	padding: 5px;
+	box-sizing: border-box;
+	font-weight: bold;
+}
+.carrossel__imagem{
+	width: 100%;
+	height: 100%;
+}
+.carrossel__imagem__concentrado{
+	width: 100%;
+	height: 100%;
+}
+.carrossel__titulo{
+	text-transform: uppercase;
+	padding: 2px;
+	box-sizing: border-box;
+	position: relative;
+	top:-40px;
+	color: white;
+	background-color: rgba(0, 172, 228, 0.73);
+	display: inline; /*para fazer sobreposições*/
+	font-size: 100%;
+}
+.carrossel__texto{
+	margin: 0;
+	font-size: 1.5em;
+    position: relative;
+    top: -14px;
+}
+
+/*DESTAQUES*/
+
+.destaques{
+	padding: 5px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 30%;
+}
+.destaques__imagem{
+	width: 100%;
+	height: 100%;
+}
+.destaques__imagem__garotinha{
+	width: 100%; 
+	height: 100%;
+}
+.destaques__imagem__gato{
+	width: 100%; 
+	height: 100%;
+}
+.destaques__imagem__passarinho{
+	width: 100%; 
+	height: 100%;
+}
+.destaques__titulo{
+	text-transform: uppercase;
+	padding: 2px;
+	box-sizing: border-box;
+	position: relative;
+	top:-40px;
+	color: white;
+	background-color: rgba(232, 21, 58, 0.73);
+	display: inline; 
+	font-size: 100%;
+}
+
+/*NOTICIAS*/
+
+.pre-noticias__titulo{
+	margin: 10px 0;
+	font-size: 1.3em;
+}
+.noticias{
+	padding: 5px;
+	box-sizing: border-box;
+}
+.noticias__imagem{
+	width: 100%;
+	height: 100%;
+}
+.noticias__imagem__moco{
+	width: 100%;
+	height: 100%;
+}
+.noticias__imagem__espanto{
+	width: 100%;
+	height: 100%;
+}
+.noticias__imagem__musico{
+	width: 100%;
+	height: 100%;
+}
+.noticias__imagem__cabecao{
+	width: 100%;
+	height: 100%;
+}
+.noticias__titulo{
+	color: #429cfd;
+	text-transform: uppercase;
+	font-size: 100%;
+}
+.noticias__traco{
+	color: gray;
+	text-align: center;
+}
+
+/*MINI NOTICIAS*/
+
+.mini-noticias{
+	padding: 5px;
+	box-sizing: border-box;
+}
+.mini-noticias__titulo{
+	color: #429cfd;
+	font-size: 1.3em;
+}
+.mini-noticias__traco{
+	color: gray;
+	text-align: center;
+}
+
+/*SUB-NOTICIAS*/
+
+.pre-sub-noticias__titulo{
+	margin: 10px 0;
+	font-size: 1.3em;
+	color: red;
+}
+.sub-noticias{
+	padding: 5px;
+	box-sizing: border-box;
+}
+.sub-noticias__imagem{
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+}
+.sub-noticias__imagem__gatos{
+	width: 100%;
+	height: 100%;
+}
+.sub-noticias__imagem__moca{
+	width: 100%;
+	height: 100%;
+}
+.sub-noticias__imagem__ser-mistico{
+	width: 100%;
+	height: 100%;
+}
+.sub-noticias__imagem__olho{
+	width: 100%;
+	height: 100%;
+}
+.sub-noticias__descricao{
+	width: 48%;
+	display: inline-block;
+	vertical-align: top;
+}
+.sub-noticias__descricao__titulo{
+	width: 50%;
+	display: inline;
+	color: red;
+	text-transform: uppercase;
+	font-size: 100%;
+}
+
+/*PUBLICIDADE*/
+
+.publicidade{
+	text-align: center;
+	margin: 75px 0;
+}
+.publicidade__img__titulo{
+	opacity: 0.5;
+	font-size: 14px;
+	margin: 0 auto;
+	width: 300px;
+	text-align: right;
+}
+.publicidade__img__social{
+	width: 300px;
+	height: 250px;
+}
+
+/*VOLTAR AO TOPO*/
+
+.voltar-topo{
+	background-color: rgb(0, 172, 228);
+	text-align: right;
+	padding-right: 5%;
+    box-sizing: border-box;
+}
+.voltar-topo__texto{
+	display: inline-block;
+	text-transform: uppercase;
+	color: white;
+	margin: 10px 0;
+	vertical-align: top; /*como corrigir o erro do espacinho?*/
+}
+.voltar-topo__img{
+	display: inline-block;
+	margin-top: 10px; 
+}
+
+/*RODAPÉ*/
+
+.rodape{
+	background-color: rgb(40, 60, 79);
+	padding: 10px;
+	box-sizing: border-box;
+}
+.rodape__texto{
+	color: white;
+}
+.rodape__texto__email{
+	color: white;
+}
+
+/*COMPONENTES SIMPLES MOBILE
+
+COMENTÁRIO: 1
+
+.destaques{
+	background-color: orange;
+	padding: 5px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 30%;
+}
+.destaques__imagem{
+	width: 100%;
+	height: 100%;
+}
+.destaques__imagem__garotinha{
+	width: 100%; COMENTÁRIO: é aqui que eu redimenciono a imagem
+	height: 100%;
+}
+.destaques__titulo{
+	text-transform: uppercase;
+	padding: 2px;
+	box-sizing: border-box;
+	position: relative;
+	top:-40px;
+	color: white;
+	background-color: rgba(232, 21, 58, 0.73);
+	display: inline; COMENTÁRIO: para fazer sobreposições
+	font-size: 100%;
+}
+
+
+COMENTÁRIO: 2
+
+.noticias{
+	background-color: green;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.noticias__imagem{
+	width: 100%;
+	height: 100%;
+}
+.noticias__imagem__moco{
+	width: 100%;
+	height: 100%;
+}
+.noticias__titulo{
+	color: #429cfd;
+	text-transform: uppercase;
+	font-size: 100%;
+}
+.noticias__traco{
+	color: gray;
+	text-align: center;
+}
+
+COMENTÁRIO: 3
+
+.sub-noticias{
+	background-color: orange;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.sub-noticias__imagem{
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+}
+.sub-noticias__imagem__gatos{
+	width: 100%;
+	height: 100%;
+}
+.sub-noticias__descricao{
+	width: 48%;
+	display: inline-block;
+	vertical-align: top;
+}
+.sub-noticias__descricao__titulo{
+	width: 50%;
+	display: inline;
+	color: red;
+	text-transform: uppercase;
+	font-size: 100%;
+}
+*/
