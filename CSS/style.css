@@ -2,7 +2,7 @@
 
 menu
 link de tudo
-width um poco fora da tela
+
 */
 
 /*RESET*/
@@ -37,20 +37,14 @@ body{
     height: 100px;
     z-index: 1; /*quanto menor o z mais afrete da sobreposiçao ele estará*/
 }
-.pre-cabecalho__menu{
-	width: 18%;
-	display: inline-block;
-	vertical-align: top;
-	text-align: center;
-	height: 100%;
-	position: absolute;
-	top: 28%;
-}
 .cabecalho__menu{
 	display: inline-block;
 	position: relative;
 	left: 2%;
     vertical-align: middle;
+    width: 18%;
+	position: absolute;
+	top: 28%;
 }
 .pre-cabecalho__logo{
 	width: 100%;
@@ -62,6 +56,12 @@ body{
 	display: inline-block;
 	position: relative;
 	top: 11px;
+}
+.cabecalho__texto{
+	display: none;
+}
+.cabecalho__redes-sociais{
+	display: none;
 }
 .carrossel { /*ajuste menu 100px fixos*/
 	margin-top: 130px; /*O + 30px é a margen do elemento*/
@@ -98,6 +98,9 @@ body{
 	font-size: 1.5em;
     position: relative;
     top: -14px;
+}
+.carrossel__seta{
+	display: none;
 }
 
 /*DESTAQUES*/
@@ -242,6 +245,9 @@ body{
 	text-align: center;
 	margin: 75px 0;
 }
+.publicidade__img-big{
+	display: none;
+}
 .publicidade__img__titulo{
 	opacity: 0.5;
 	font-size: 14px;
@@ -253,6 +259,7 @@ body{
 	width: 300px;
 	height: 250px;
 }
+
 
 /*VOLTAR AO TOPO*/
 
@@ -281,11 +288,190 @@ body{
 	padding: 10px;
 	box-sizing: border-box;
 }
+.rodape__img{
+	display: none;
+}
 .rodape__texto{
 	color: white;
 }
 .rodape__texto__email{
 	color: white;
+}
+
+/* MEDIA QUERIE TABLET */
+
+@media(min-width: 768px) {
+	.cabecalho__texto{
+		display: inline;
+		color: white;
+	}
+	.cabecalho__redes-sociais{
+		display: inline;
+		text-align: right;
+	}
+	.cabecalho__redes-sociais__link__img{
+		background-color: white;
+		position: absolute;
+    	top: 61px;
+	    border-radius: 5px;
+	    padding-top: 7px;
+	    box-sizing: border-box;
+	    border: 0.5px solid gray;
+	}
+	.cabecalho__redes-sociais__link__img__texto{
+		display: none;
+	}
+	.posicao-facebook{
+		right: 70px;
+	}
+	.cabecalho__redes-sociais__link__img__facebook-img{
+		width: 40px;
+    	height: 23px;
+	}
+	.posicao-twitter{
+		right: 16px;
+	}
+	.cabecalho__redes-sociais__link__img__twitter-img{
+		width: 40px;
+    	height: 23px;
+	}
+
+	.carrossel__titulo {
+    	top: -94px;
+	}
+	.carrossel__texto {
+	    top: -77px;
+	    color: white;
+	}
+
+	.conteudo-principal{
+		display: inline;
+	}
+	.destaques{
+		width: 30%;
+		display: inline-block;
+    	margin-left: 18px;
+	}
+
+	.noticias {
+	    width: 47%;
+	    display: inline-block;
+	    margin-left: 10px;
+	}
+
+	.mini-noticias {
+	    display: inline-block;
+	    width: 49%;
+	    vertical-align: top;
+	}
+
+	.pre-sub-noticias{
+		display: inline-block;
+		width: 49%;
+		vertical-align: top;
+	}
+
+	.pre-publicidade{
+		display: inline-block;
+		width: 49%;
+	}
+
+	.rodape__img{
+		display: inline-block;
+		width: 24%;
+	}
+	.rodape__texto {
+	    display: inline-block;
+	    width: 70%;
+	    margin-left: 21px;
+	}
+}
+
+/* MEDIA QUERIE DESKTOP */
+
+@media(min-width: 992px) {
+	.cabecalho{
+		position: relative;
+	}
+	.cabecalho__redes-sociais__link__img {
+    	top: 33px;
+	}
+	.cabecalho__redes-sociais__link__img__texto{
+		display: inline-block;
+		text-transform: uppercase;
+		margin-left: 10px;
+	    display: inline-block;
+	    text-transform: uppercase;
+	    margin: 2px 8px 0 0;
+	    vertical-align: top;
+	}
+	.texto-facebook{
+		color: blue;
+	}
+	.texto-twitter{
+		color: rgb(0, 172, 228);
+	}
+	.posicao-facebook{
+		right: 144px;
+	}
+	.posicao-twitter{
+		right: 16px;
+	}
+
+	.pre-carrossel {
+	    margin: 0 auto;
+	    text-align: center;
+	}
+	.carrossel {
+	    width: 90%;
+	    margin: 21px auto 0 auto;
+	    display: inline-block;
+	    text-align: left;
+	}
+	.carrossel__seta{
+		display: inline-block;
+		position: relative;
+		top: 41%;
+		background: white;
+   		border-radius: 100%;
+   		width: 5%; /*41px*/
+   		height: 42px;
+   		text-align: center;
+   		border: 1px solid gray;
+	}
+	.seta-esq{
+		right: 1%; /*45px*/
+	}
+	.seta-dir{
+		left: 102%;
+    	top: -71%; /*-246px*/ 
+	}
+	.div{
+		/*position: relative;
+		top:-10%;
+		position: absolute;
+	    top: 37%;*/
+	    position: relative;
+	    top: -275px;
+	}
+
+	.conteudo-principal{
+		width: 90%;
+	}
+
+	.publicidade{
+		margin: 0 auto;
+	}
+	.publicidade__img{
+		display: none;
+	}
+	.publicidade__img-big{
+		display: inline-block;
+	}
+	.publicidade__img-big__social{
+		width: 300px;
+		height: 600px;
+	}	
 }
 
 /*COMPONENTES SIMPLES MOBILE
