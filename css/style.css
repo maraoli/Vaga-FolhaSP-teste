@@ -64,7 +64,7 @@ body{
 	display: none;
 }
 .carrossel { /*ajuste menu 100px fixos*/
-	margin-top: 130px; /*O + 30px é a margen do elemento*/
+	margin: 112px 30px 0 30px; /*O + 30px é a margen do elemento*/
 }
 
 /*CARROSSEL*/
@@ -345,7 +345,7 @@ body{
 	}
 
 	.conteudo-principal{
-		display: inline;
+		margin: 0 30px;
 	}
 	.destaques{
 		width: 30%;
@@ -457,6 +457,7 @@ body{
 
 	.conteudo-principal{
 		width: 90%;
+		margin: 0 auto;
 	}
 
 	.publicidade{
