@@ -46,6 +46,11 @@ body{
 	position: absolute;
 	top: 28%;
 }
+
+.conteudo-principal{
+	width: 95%;
+	margin: 0 auto;
+}
 .pre-cabecalho__logo{
 	width: 100%;
 	display: inline-block;
@@ -64,7 +69,7 @@ body{
 	display: none;
 }
 .carrossel { /*ajuste menu 100px fixos*/
-	margin: 112px 30px 0 30px; /*O + 30px é a margen do elemento*/
+	margin: 112px auto 0 auto; /*O + 30px é a margen do elemento*/
 }
 
 /*CARROSSEL*/
@@ -77,6 +82,7 @@ body{
 .carrossel__imagem{
 	width: 100%;
 	height: 100%;
+	position: relative;
 }
 .carrossel__imagem__concentrado{
 	width: 100%;
@@ -86,8 +92,8 @@ body{
 	text-transform: uppercase;
 	padding: 2px;
 	box-sizing: border-box;
-	position: relative;
-	top:-40px;
+	position: absolute;
+	margin-top: -40px;
 	color: white;
 	background-color: rgba(0, 172, 228, 0.73);
 	display: inline; /*para fazer sobreposições*/
@@ -96,8 +102,6 @@ body{
 .carrossel__texto{
 	margin: 0;
 	font-size: 1.5em;
-    position: relative;
-    top: -14px;
 }
 .carrossel__seta{
 	display: none;
@@ -110,6 +114,7 @@ body{
 	box-sizing: border-box;
 	width: 100%;
 	height: 30%;
+	position: relative;
 }
 .destaques__imagem{
 	width: 100%;
@@ -131,8 +136,8 @@ body{
 	text-transform: uppercase;
 	padding: 2px;
 	box-sizing: border-box;
-	position: relative;
-	top:-40px;
+	position: absolute;
+	margin-top: -40px;
 	color: white;
 	background-color: rgba(232, 21, 58, 0.73);
 	display: inline; 
@@ -337,16 +342,17 @@ body{
 	}
 
 	.carrossel__titulo {
-    	top: -94px;
-	}
-	.carrossel__texto {
-	    top: -77px;
-	    color: white;
+		top: -94px;
+		margin-top: 53%;
 	}
 
-	.conteudo-principal{
-		margin: 0 30px;
+	.carrossel__texto {
+		color: white;
+		position: absolute;
+		margin-top: -9%;
+		width: 92%;
 	}
+
 	.destaques{
 		width: 30%;
 		display: inline-block;
