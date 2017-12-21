@@ -469,14 +469,20 @@ body{
 	    position: relative;
 	    top: -275px;
 	}
-
 	.conteudo-principal{
 		width: 90%;
 		margin: 0 auto;
 	}
-
+	.pre-noticias{
+		width: 66%;
+		display: inline-block;
+		margin-right: -4px;
+	}
 	.publicidade{
 		margin: 0 auto;
+		width: 33%;
+		display: inline-block;
+		margin-right: -4px;
 	}
 	.publicidade__img{
 		display: none;
@@ -487,6 +493,19 @@ body{
 	.publicidade__img-big__social{
 		width: 300px;
 		height: 600px;
+	}
+	.mini-noticias{
+		width: 33%;
+	}
+	.pre-sub-noticias{
+		width: 33%;
+	}
+	.rodape{
+		text-align: center;
+	}
+	.rodape__texto{
+		text-align: left;
+		width: 57%;
 	}	
 }
 
