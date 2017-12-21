@@ -20,6 +20,9 @@ body {
 figure{
 	margin: 0;
 }
+*{
+	vertical-align: top;
+}
 
 /*PADRAO DO SITE*/
 
@@ -307,12 +310,23 @@ body{
 
 @media(min-width: 768px) {
 	.cabecalho__texto{
-		display: inline;
+		display: inline-block;
+		margin-right: -4px;
+		vertical-align: bottom;
 		color: white;
 	}
 	.cabecalho__redes-sociais{
 		display: inline;
 		text-align: right;
+	}
+	.cabecalho__redes-sociais__link{
+		background: white;
+		border: 1px solid black;
+		border-radius: 7px;
+	}
+	.fa-twitter{
+		color: #00BCD4;
+		font-size: 35px;
 	}
 	.cabecalho__redes-sociais__link__img{
 		background-color: white;
@@ -356,6 +370,7 @@ body{
 	.destaques{
 		width: 30%;
 		display: inline-block;
+		margin-right: -4px;
     	margin-left: 18px;
 	}
 
@@ -366,28 +381,33 @@ body{
 	}
 
 	.mini-noticias {
-	    display: inline-block;
+		display: inline-block;
+		margin-right: -4px;
 	    width: 49%;
 	    vertical-align: top;
 	}
 
 	.pre-sub-noticias{
 		display: inline-block;
+		margin-right: -4px;
 		width: 49%;
 		vertical-align: top;
 	}
 
 	.pre-publicidade{
 		display: inline-block;
+		margin-right: -4px;
 		width: 49%;
 	}
 
 	.rodape__img{
 		display: inline-block;
+		margin-right: -4px;
 		width: 24%;
 	}
 	.rodape__texto {
-	    display: inline-block;
+		display: inline-block;
+		margin-right: -4px;
 	    width: 70%;
 	    margin-left: 21px;
 	}
@@ -404,6 +424,7 @@ body{
 	}
 	.cabecalho__redes-sociais__link__img__texto{
 		display: inline-block;
+		margin-right: -4px;
 		text-transform: uppercase;
 		margin-left: 10px;
 	    display: inline-block;
@@ -432,7 +453,8 @@ body{
 	.carrossel {
 	    width: 100%;
 	    margin: 21px auto 0 auto;
-	    display: inline-block;
+		display: inline-block;
+		margin-right: -4px;
 		text-align: left;
 		font-size: 20px;
 	}
@@ -445,6 +467,7 @@ body{
 	}
 	.carrossel__seta{
 		display: inline-block;
+		margin-right: -4px;
 		position: relative;
 		top: 41%;
 		background: white;
