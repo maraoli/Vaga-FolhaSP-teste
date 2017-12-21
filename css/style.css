@@ -426,13 +426,22 @@ body{
 
 	.pre-carrossel {
 	    margin: 0 auto;
-	    text-align: center;
+		text-align: center;
+		width: 100%;
 	}
 	.carrossel {
-	    width: 90%;
+	    width: 100%;
 	    margin: 21px auto 0 auto;
 	    display: inline-block;
-	    text-align: left;
+		text-align: left;
+		font-size: 20px;
+	}
+	.carrossel__titulo{
+		margin: 45% 0 0 30px;
+	}
+	.carrossel__texto{
+		margin: -9% 0 0 30px;
+		width: 60%;
 	}
 	.carrossel__seta{
 		display: inline-block;
