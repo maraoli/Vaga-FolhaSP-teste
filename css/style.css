@@ -316,13 +316,11 @@ body{
 		color: white;
 	}
 	.cabecalho__redes-sociais{
-		display: inline;
-		text-align: right;
-	}
-	.cabecalho__redes-sociais__link{
-		background: white;
-		border: 1px solid black;
-		border-radius: 7px;
+		display: inline-block;
+		margin-right: -4px;
+		position: absolute;
+		top: 41px;
+		right: 18px;
 	}
 	.fa-twitter{
 		color: #00BCD4;
@@ -335,12 +333,8 @@ body{
 	.cabecalho__redes-sociais__link__img{
 		background-color: white;
 		position: absolute;
-    	top: 61px;
 	    border-radius: 5px;
-	    padding-top: 7px;
-	    box-sizing: border-box;
 		border: 0.5px solid gray;
-		padding: 0;
 	}
 	.cabecalho__redes-sociais__link__img__texto{
 		display: none;
