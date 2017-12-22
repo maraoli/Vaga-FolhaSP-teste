@@ -352,14 +352,14 @@ body{
 	}
 	.carrossel__titulo {
 		top: -94px;
-		margin-top: 53%;
+		margin-top: 50%;
 	}
 
 	.carrossel__texto {
 		color: white;
 		position: absolute;
-		margin-top: -9%;
-		width: 92%;
+		margin-top: -7%;
+		width: 74%;
 	}
 
 	.destaques{
