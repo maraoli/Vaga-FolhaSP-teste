@@ -464,11 +464,16 @@ body{
 		font-size: 20px;
 	}
 	.carrossel__titulo{
-		margin: 45% 0 0 30px;
+		margin: 43% 0 0 30px;
 	}
 	.carrossel__texto{
 		margin: -76px 0 0 30px;
 		width: 60%;
+	}
+	.setas{
+		color: red;
+		position: relative;
+    	top: -275px;
 	}
 	.carrossel__seta{
 		display: inline-block;
