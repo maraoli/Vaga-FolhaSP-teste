@@ -414,6 +414,12 @@ body{
 	.cabecalho{
 		position: relative;
 	}
+	.cabecalho__redes-sociais {
+		width: 30%;
+		height: 100%;
+		top: 45px;
+		right: -42px;
+	}
 	.cabecalho__redes-sociais__link__img {
     	top: 33px;
 	}
@@ -430,18 +436,18 @@ body{
 	.texto-facebook{
 		color: blue;
 		font-size: 13px;
-    	margin: 7px;
+		margin: 7px 1px 0px 7px;
 	}
 	.texto-twitter{
 		color: rgb(0, 172, 228);
 		font-size: 13px;
-   		margin: 10px;
+		margin: 10px 8px 0px 7px;
 	}
 	.posicao-facebook{
-		margin-left: -118px;
+		margin-left:  -285%;
 	}
 	.posicao-twitter{
-		margin-left: -1px;
+		margin-left: -28%;
 	}
 
 	.pre-carrossel {
