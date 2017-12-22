@@ -326,7 +326,11 @@ body{
 	}
 	.fa-twitter{
 		color: #00BCD4;
-		font-size: 35px;
+		font-size: 31px;
+	}
+	.fa-facebook{
+		color: #3F51B5;
+    	font-size: 24px;
 	}
 	.cabecalho__redes-sociais__link__img{
 		background-color: white;
@@ -335,26 +339,20 @@ body{
 	    border-radius: 5px;
 	    padding-top: 7px;
 	    box-sizing: border-box;
-	    border: 0.5px solid gray;
+		border: 0.5px solid gray;
+		padding: 0;
 	}
 	.cabecalho__redes-sociais__link__img__texto{
 		display: none;
 	}
 	.posicao-facebook{
 		right: 70px;
-	}
-	.cabecalho__redes-sociais__link__img__facebook-img{
-		width: 40px;
-    	height: 23px;
+		padding: 3px 9px;
 	}
 	.posicao-twitter{
 		right: 16px;
+		padding: 0px 2px;
 	}
-	.cabecalho__redes-sociais__link__img__twitter-img{
-		width: 40px;
-    	height: 23px;
-	}
-
 	.carrossel__titulo {
 		top: -94px;
 		margin-top: 53%;
