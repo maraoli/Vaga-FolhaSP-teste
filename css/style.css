@@ -319,20 +319,23 @@ body{
 		display: inline-block;
 		margin-right: -4px;
 		position: absolute;
-		top: 41px;
-		right: 18px;
+		top: 37px;
+		right: 117px;
 	}
 	.fa-twitter{
 		color: #00BCD4;
 		font-size: 31px;
+		margin-left: 44px;
 	}
 	.fa-facebook{
 		color: #3F51B5;
     	font-size: 24px;
 	}
+	.cabecalho__redes-sociais__link {
+		position: absolute;
+	}
 	.cabecalho__redes-sociais__link__img{
 		background-color: white;
-		position: absolute;
 	    border-radius: 5px;
 		border: 0.5px solid gray;
 	}
@@ -426,15 +429,19 @@ body{
 	}
 	.texto-facebook{
 		color: blue;
+		font-size: 13px;
+    	margin: 7px;
 	}
 	.texto-twitter{
 		color: rgb(0, 172, 228);
+		font-size: 13px;
+   		margin: 10px;
 	}
 	.posicao-facebook{
-		right: 144px;
+		margin-left: -118px;
 	}
 	.posicao-twitter{
-		right: 16px;
+		margin-left: -1px;
 	}
 
 	.pre-carrossel {
