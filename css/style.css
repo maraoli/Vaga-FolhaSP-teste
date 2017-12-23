@@ -472,7 +472,8 @@ body{
 		width: 65%;
 	}
 	.carrossel__navegacao{
-		
+		text-align: center;
+    	margin: 10px;
 	}
 	.setas{
 		position: absolute;
