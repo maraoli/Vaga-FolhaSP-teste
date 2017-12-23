@@ -471,6 +471,9 @@ body{
 		margin: -76px 0 0 30px;
 		width: 65%;
 	}
+	.carrossel__navegacao{
+		
+	}
 	.setas{
 		position: absolute;
 		top: 45%;
