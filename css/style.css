@@ -462,6 +462,7 @@ body{
 		margin-right: -4px;
 		text-align: left;
 		font-size: 20px;
+		position: relative;
 	}
 	.carrossel__titulo{
 		margin: 43% 0 0 30px;
@@ -471,36 +472,25 @@ body{
 		width: 60%;
 	}
 	.setas{
-		color: red;
-		position: relative;
-    	top: -275px;
+		position: absolute;
+		top: 45%;
+		left: -16px;
+		width: 101%;
 	}
 	.carrossel__seta{
 		display: inline-block;
 		margin-right: -4px;
-		position: relative;
 		top: 41%;
 		background: white;
-   		border-radius: 100%;
-   		width: 5%; /*41px*/
-   		height: 42px;
-   		text-align: center;
-   		border: 1px solid gray;
-	}
-	.seta-esq{
-		right: 1%; /*45px*/
+		border-radius: 100%;
+		height: 42px;
+		text-align: center;
+		border: 1px solid gray;
+		position: relative;
+		width: 40px;
 	}
 	.seta-dir{
-		left: 102%;
-    	top: -71%; /*-246px*/ 
-	}
-	.div{
-		/*position: relative;
-		top:-10%;
-		position: absolute;
-	    top: 37%;*/
-	    position: relative;
-	    top: -275px;
+		left: 95%;
 	}
 	.conteudo-principal{
 		width: 90%;
