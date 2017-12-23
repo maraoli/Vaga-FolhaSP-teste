@@ -474,8 +474,8 @@ body{
 	.setas{
 		position: absolute;
 		top: 45%;
-		left: -16px;
-		width: 101%;
+		left: -61px;
+		width: 105%;
 	}
 	.carrossel__seta{
 		display: inline-block;
@@ -487,10 +487,11 @@ body{
 		text-align: center;
 		border: 1px solid gray;
 		position: relative;
-		width: 40px;
+		width: 43px;
 	}
 	.seta-dir{
-		left: 95%;
+		left: 98%;
+		float: left;
 	}
 	.conteudo-principal{
 		width: 90%;
