@@ -465,11 +465,11 @@ body{
 		position: relative;
 	}
 	.carrossel__titulo{
-		margin: 43% 0 0 30px;
+		margin: 38% 0 0 30px;
 	}
 	.carrossel__texto{
 		margin: -76px 0 0 30px;
-		width: 60%;
+		width: 65%;
 	}
 	.setas{
 		position: absolute;
