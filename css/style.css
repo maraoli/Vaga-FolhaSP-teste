@@ -75,6 +75,40 @@ body{
 	margin: 112px auto 0 auto; /*O + 30px é a margen do elemento*/
 }
 
+/* MENU */
+
+.cabecalho__menu__lista{
+	/* transição */
+
+	-webkit-transform: translateX(-273px);
+	-moz-transform: translateX(-273px);
+	-ms-transform: translateX(-273px);
+	transform: translateX(-273px);
+	-webkit-transition: all .25s linear;
+	-moz-transition: all .25s linear;
+	-ms-transition: all .25s linear;
+	transition: all .25s linear;
+
+	/* visual */
+	background: rgb(0, 172, 228);
+	padding: 10px;
+	box-sizing: border-box;
+}
+.cabecalho__menu__lista li{
+	list-style-type: none;
+	text-align: left;
+}
+.cabecalho__menu__lista li a{
+	text-decoration: none;
+	color: white;
+}
+.menu-active .cabecalho__menu__lista {
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+	-ms-transform: translateX(0);
+	transform: translateX(0);
+}
+
 /*CARROSSEL*/
 
 .carrossel{
