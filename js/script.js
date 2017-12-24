@@ -1,0 +1,1 @@
+window.location = "#bolinha1";

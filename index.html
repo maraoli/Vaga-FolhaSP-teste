@@ -1,36 +1,15 @@
 <!--
 
-Mara- Teste para a vaga da Folha SP
+Teste para a vaga da Folha de SP
 
 link : https://github.com/FolhaSP/front-end-tes
 
-NÃO PODE USAR FLEXBOX PQ EXPLORER 9 NÃO SUPORTA
+SEM USAR FLEXBOX
 
-COISAS QUE EU NÃO ENTENDI>>>
-
-	1) O grid do layout é baseado no Grid System do Bootstrap 3, mas não copie todo o bootstrap 3 para o projeto. Nós queremos ver você fazendo os breakpoints e as modificações dependendo do device. ( O QUE ISSO QUER DIZER???)
-
-	2) pré-processadores (Less, SASS ou Stylus, esse último é o nosso favorito :D)
-
-	3)Os recortes das imagens estão na pasta "slices", mas você é livre para usar um http://lorempixel.com da vida no lugar.
-
-	4) front-end-test/.gitignore
-
-DÚVIDAS EM GERAL>>>
-
-    1) No alt eu uso acentos?
-    2) A margem do figure só é removida na tag?
-    3) Pode ter texto dentro da tag figure?
-    4) O alt é importante nesses casos?
-    5) Posso repetir o nome das classes dos elementos simples?
-    6)Quando eu uso display inline/inine-block
-    7)Quando eu uso div?
-    8)Como eu faço pra colocar o CSS dos componentes repetidos?
-    9) porque o border box n funciona fora do moz?
 -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
     <head>
         <meta charset="utf-8">
         <title>Folha de S.Paulo</title>
@@ -38,6 +17,7 @@ DÚVIDAS EM GERAL>>>
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
+    
     <body>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <!-- precisa estar no body essa tag acima, n dentro de nada. -->
@@ -57,7 +37,7 @@ DÚVIDAS EM GERAL>>>
                     <li><a href="#bolinha1">Contato</a></li>
             </ul>
        
-            </nav>
+        </nav>
         <div class="pre-cabecalho__logo">
             <figure class="cabecalho__logo">
                 <img src="img/mobile/logo.png" alt="Logo Folha de São Paulo">
@@ -85,7 +65,8 @@ DÚVIDAS EM GERAL>>>
 
         <section class="pre-carrossel">
 
-            <script>window.location = "#bolinha1";</script>
+            <!-- <script>window.location = "#bolinha1";</script> -->
+            <script type="text/javascript" src="js/script.js"></script>
 
             <article class="carrossel bolinha1" id="bolinha1">
                 <figure class="carrossel__imagem">
@@ -332,40 +313,5 @@ DÚVIDAS EM GERAL>>>
         cillum dolore eu fugiat nulla pariatur <a class="rodape__texto__email" href="mailto:pesquisa@folhapress.com.br">(pesquisa@folhapress.com.br)</a>.</p>
     </footer>
 
-    
-<!--COMPONENTES SIMPLES MOBILE
-
-    COMENTÁRIO: 1)
-    <article class="destaques">
-        <figure class="destaques__imagem">
-            <img class="destaques__imagem__garotinha" src="img/mobile/highlight-01.png" alt="garotinha no balanço">
-        </figure>
-        <h1 class="destaques__titulo">Lorem ipsum</h1>
-    </article>
-    
-
-
-    COMENTÁRIO: 2)
-    <article class="noticias">
-        <figure class="noticias__imagem">
-            <img class="noticias__imagem__moco" src="img/mobile/divoltis-porris-01.png" alt="moço surpreso">
-        </figure>
-        <h1 class="noticias__titulo">Lorem ipsum</h1>
-        <p class="noticias__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-        <hr class="noticias__traco">
-    </article>
-
-    COMENTÁRIO: 3)
-
-    <article class="sub-noticias">
-        <figure class="sub-noticias__imagem">
-            <img class="sub-noticias__imagem__gatos" src="img/mobile/se_pirulita-01.png" alt="desenho da mae e do filho gatinhos tocando o nariz">
-        </figure>
-        <div class="sub-noticias__descricao">
-            <h1 class="sub-noticias__descricao__titulo">Lorem ipsum</h1>
-            <p class="sub-noticias__descricao__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-        </div>
-    </article>
--->
     </body>
 </html>
