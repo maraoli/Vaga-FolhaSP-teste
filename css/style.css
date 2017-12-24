@@ -373,8 +373,7 @@ body{
 		padding: 0px 2px;
 	}
 	.carrossel__titulo {
-		top: -189px;
-		margin-top: 50%;
+		margin-top: -11%;
 		position: absolute;
 	}
 	.carrossel__texto {
@@ -483,7 +482,7 @@ body{
 		font-size: 20px;
 	}
 	.carrossel__titulo{
-		margin: 434px 0 0 30px;
+		margin: -118px 0 0 30px;
 	}
 	.carrossel__texto{
 		margin: -76px 0 0 30px;
